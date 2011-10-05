@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+	<field key="author" value="ColdTrick IT Solutions" />
+	<field key="version" value="1.7" />
+	<field key="description" value="A Dutch translation for Elgg" />
+	<field key="website" value="http://www.coldtrick.com/" />
+	<field key="copyright" value="(C) ColdTrick IT Solutions 2009" />
+	<field key="licence" value="GNU Public License version 2" />
+</plugin_manifest>
+<!--
+
+==========================
+Version history
+==========================
+
+1.7:
+	- changed: translations for Elgg 1.7
+	- changed: translations for Tidypics 1.6.6
+	- changed: translations for iZAP Videos 3.5
+	- changed: translations for Event Calendar 0.8
+
+1.5:
+	- changed: translations for Elgg 1.5
+
+-->
