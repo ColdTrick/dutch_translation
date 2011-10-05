@@ -9,6 +9,7 @@
 	*/
 if(is_plugin_enabled('bookmarks')){
 	$language = array (
+	  'bookmarks:morebookmarks' => 'Meer favorieten',
 	  'bookmarks:this:group' => 'Favoriet in %s',
 	  'bookmarks:bookmarklet:group' => 'Verkrijg groeps bookmarklet',
 	  'bookmarks:group' => 'Groeps favorieten',
@@ -45,6 +46,7 @@ if(is_plugin_enabled('bookmarks')){
 	  'bookmarks:save:failed' => 'Je favoriet kon niet worden opgeslagen. Probeer het nogmaals.',
 	  'bookmarks:delete:failed' => 'Je favoriet kon niet worden verwijderd. Probeer het nogmaals.',
 	);
+	
 	add_translation("nl", $language);
 }
 ?>

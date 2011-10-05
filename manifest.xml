@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin_manifest>
 	<field key="author" value="ColdTrick IT Solutions" />
-	<field key="version" value="1.7" />
+	<field key="version" value="1.7.1" />
 	<field key="description" value="A Dutch translation for Elgg" />
 	<field key="website" value="http://www.coldtrick.com/" />
-	<field key="copyright" value="(C) ColdTrick IT Solutions 2009" />
+	<field key="copyright" value="(C) ColdTrick IT Solutions 2010" />
 	<field key="licence" value="GNU Public License version 2" />
+	<field key="elgg_version" value="2010030101" />
 </plugin_manifest>
 <!--
 
 ==========================
 Version history
 ==========================
+1.7.1 (2010-05-21):
+	- fixed: missing Elgg 1.7.1 core keys now translated
 
 1.7:
 	- changed: translations for Elgg 1.7

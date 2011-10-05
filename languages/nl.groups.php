@@ -9,13 +9,15 @@
 	*/
 if(is_plugin_enabled('groups')){
 	$language = array (
+	  'groups:invite:remove:check' => 'Weet je zeker dat je deze uitnodiging wilt verwijderen?',
+	  'groups:invitekilled' => 'De uitnodiging is verwijderd',
 	  'groups:invitations' => 'Groeps uitnodigingen',
 	  'groups:search:tags' => 'tag',
 	  'groups:invitations:none' => 'Er zijn geen openstaande uitnodigingen op dit moment',
 	  'groups:visibility' => 'Wie kan deze groep zien?',
 	  'groups:notmember' => 'Sorry, je bent geen lid van deze groep',
 	  'groups:river:togroup' => 'aan de groep',
-	  'groups:allowhiddengroups' => 'Wil je privÃ© (onzichtbare) groepen toestaan?',
+	  'groups:allowhiddengroups' => 'Wil je privé (onzichtbare) groepen toestaan?',
 	  'grouptopic:notfound' => 'Het onderwerp kon niet gevonden worden',
 	  'grouppost:nopost' => 'Lege post',
 	  'groups' => 'Groepen',
@@ -127,26 +129,26 @@ if(is_plugin_enabled('groups')){
 	  'groups:joinrequest:remove:check' => 'Weet je zeker dat je dit lidmaatschaps verzoek wilt verwijderen?',
 	  'groups:invite:subject' => '%s je bent uitgenodigd om lid te worden van %s!',
 	  'groups:invite:body' => 'Beste %s,
-	
-	Je bent uitgenodigd om lid te worden van de \'%s\' groep, om te accepteren klik hier:
-	
-	%s',
+
+Je bent uitgenodigd om lid te worden van de \'%s\' groep, om te accepteren klik hier:
+
+%s',
 	  'groups:welcome:subject' => 'Welkom bij de %s groep!',
 	  'groups:welcome:body' => 'Beste %s!
-	
-	Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
-	
-	%s',
+
+Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
+
+%s',
 	  'groups:request:subject' => '%s wil lid worden van %s',
 	  'groups:request:body' => 'Beste %s,
-	
-	%s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
-	
-	%s
-	
-	of klik hieronder om het verzoek te accepteren:
-	
-	%s',
+
+%s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
+
+%s
+
+of klik hieronder om het verzoek te accepteren:
+
+%s',
 	  'groups:river:member' => '%s is nu lid van',
 	  'groupforum:river:updated' => '%s berwerkte',
 	  'groupforum:river:update' => 'dit forum bericht',

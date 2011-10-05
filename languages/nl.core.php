@@ -9,6 +9,10 @@
 	*/
 
 	$language = array (
+	  'membershiprequired' => 'Je moet lid zijn van deze groep om deze pagina te kunnen bekijken',
+	  'installation:error:db:title' => 'Database instelling fout',
+	  'installation:error:db:text' => 'Controleer je database instellingen aangezien Elgg geen verbinding en toegang tot de databse heeft',
+	  'item:object:reported_content' => 'Gemelde items',
 	  'loggedinrequired' => 'je moet zijn aangemeld om die pagina te kunnen bekijken.',
 	  'adminrequired' => 'Je moet een administrator zijn om die pagina te kunnen bekijken',
 	  'InvalidParameterException:APIMethodOrFunctionNotSet' => 'Methode of functie niet ingesteld in de \'call\' in expose_method()',
@@ -43,7 +47,6 @@
 	  'installation:viewpathcache:label' => 'Gebruik view filepath cache (aanbevolen)',
 	  'welcome:user' => 'Welkom %s',
 	  'tag_names:tags' => 'Tags',
-	  'item:object:reported_content' => 'Gemelde items',
 	  'item:site' => 'Sites',
 	  'login' => 'Aanmelden',
 	  'loginok' => 'Je bent aangemeld.',
@@ -440,17 +443,17 @@
 	  'fileexists' => 'Er is reeds een bestand geupload. Om het te vervangen selecteer het hieronder:',
 	  'useradd:subject' => 'Gebruikers account aangemaakt',
 	  'useradd:body' => '%s,
-	
-	Een gebruikers account is voor jou aangemaakt op %s. Om je aan te melden, klikt hier:
-	
-		%s
-	
-	En meld je aan met de volgende gegevens:
-	
-		Gebruikersnaam: %s
-		Wachtwoord: %s
-		
-	Als je bent aangemeld raden we je aan om je wachtwoord direct te wijzigen.',
+
+Een gebruikers account is voor jou aangemaakt op %s. Om je aan te melden, klikt hier:
+
+%s
+
+En meld je aan met de volgende gegevens:
+
+Gebruikersnaam: %s
+Wachtwoord: %s
+
+Als je bent aangemeld raden we je aan om je wachtwoord direct te wijzigen.',
 	  'systemmessages:dismiss' => 'Klik om te verbergen',
 	  'importsuccess' => 'Importeren van data was succesvol',
 	  'importfail' => 'OpenDD data importeren is mislukt.',
@@ -474,17 +477,17 @@
 	  'date:month:11' => '%s november',
 	  'date:month:12' => '%s december',
 	  'installation:error:htaccess' => 'Elgg vereist een bestand genaamd .htaccess in de hoofdmap van de installatie. We hebben geprobeerd dit bestand aan te maken, maar Elgg heeft geen toegang om in de map te moge schrijven.
-	
-			Het aanmaken is erg eenvoudig. Kopie&euml;r de inhoud van het onderstaande textveld in een text editor en sla het op als .htaccess
-	
-			',
+		
+				Het aanmaken is erg eenvoudig. Kopie&euml;r de inhoud van het onderstaande textveld in een text editor en sla het op als .htaccess
+		
+				',
 	  'installation:error:settings' => 'Elgg kon zijn instellingen bestand niet vinden. De meeste Elgg instellingen worden voor je gedaan, maar we moeten de database instellingen van jou krijgen. Om dit te doen: 
-	
-			1. Hernoem engine/settings.example.php naar settings.php in je Elgg installatie.
-	
-			2. Open het met een text editor en geef je MySQL instellingen op. Als je deze niet weet vraag dan je systeembeheerder of de helpdesk voor ondersteuning.
-	
-			Of je kunt de database instellingen hieronder ingeven en wij zullen het voor jou proberen aan te passen...',
+		
+				1. Hernoem engine/settings.example.php naar settings.php in je Elgg installatie.
+		
+				2. Open het met een text editor en geef je MySQL instellingen op. Als je deze niet weet vraag dan je systeembeheerder of de helpdesk voor ondersteuning.
+		
+				Of je kunt de database instellingen hieronder ingeven en wij zullen het voor jou proberen aan te passen...',
 	  'installation:error:configuration' => 'Als je de configuratie fouten hebt aangepast, klik op ververs en probeer het nogmaals.',
 	  'installation' => 'Installatie',
 	  'installation:success' => 'Elgg database is succesvol ge&iuml;nstalleerd.',
@@ -528,24 +531,24 @@
 	  'email:save:fail' => 'Je nieuwe e-mail adres kon niet worden opgeslagen.',
 	  'friend:newfriend:subject' => '%s heeft jou toegevoegd als vriend!',
 	  'friend:newfriend:body' => '%s heeft jou toegevoegd als vriend!
-	
-	Om zijn/haar profiel te bekijken, klik hier:
-	
-	%s
-	
-	Je kunt niet reageren op deze e-mail.',
+
+Om zijn/haar profiel te bekijken, klik hier:
+
+%s
+
+Je kunt niet reageren op deze e-mail.',
 	  'email:resetpassword:subject' => 'Wachtwoord reset!',
 	  'email:resetpassword:body' => 'Beste %s,
-	
-	Je wachtwoord is gereset naar: %s',
+
+Je wachtwoord is gereset naar: %s',
 	  'email:resetreq:subject' => 'Aanvraag voor nieuw wachtwoord.',
 	  'email:resetreq:body' => 'Beste %s,
-	
-	Iemand (van IP adres %s) heeft een nieuw wachtwoord aangevraagd voor jouw account.
-	
-	Als jij dit hebt aangevraagd, klik dan op onderstaande link. Anders kun je deze e-mail negeren.
-	
-	%s',
+
+Iemand (van IP adres %s) heeft een nieuw wachtwoord aangevraagd voor jouw account.
+
+Als jij dit hebt aangevraagd, klik dan op onderstaande link. Anders kun je deze e-mail negeren.
+
+%s',
 	  'default_access:settings' => 'Je standaard toegangs niveau',
 	  'default_access:label' => 'Standaard toegang',
 	  'user:default_access:success' => 'Je nieuwe standaard toegangs niveau is opgeslagen.',
@@ -563,18 +566,18 @@
 	  'generic_comment:failure' => 'Er is een fout opgetreden tijdens het opslaab van je reactie. Probeer het nogmaals.',
 	  'generic_comment:email:subject' => 'Er is een nieuwe reactie!',
 	  'generic_comment:email:body' => 'Er is een nieuwe reactie op je item "%s" door %s. De reactie is:
-	
-	%s
-	
-	Om te antwoorden of het originele item te zien, klik hier:
-	
-	%s
-	
-	Om %s\'s Profile te bekijken, klik hier:
-	
-	%s
-	
-	Je kunt niet antwoorden op deze e-mail.',
+
+%s
+
+Om te antwoorden of het originele item te zien, klik hier:
+
+%s
+
+Om %s\'s Profile te bekijken, klik hier:
+
+%s
+
+Je kunt niet antwoorden op deze e-mail.',
 	  'entity:default:strapline' => 'Aangemaakt op %s door %s',
 	  'entity:default:missingsupport:popup' => 'Deze entity kan niet correct worden weergegeven. Dit kan komen doordat er ondersteuning nmodig is van een Plugin die niet meer is ge&iuml;nstalleerd.',
 	  'entity:delete:success' => 'Entity %s is verwijderd',

@@ -9,6 +9,7 @@
 	*/
 if(is_plugin_enabled('search')){
 	$language = array (
+	  'search:comment_by' => 'door',
 	  'search:enter_term' => 'Geef een zoekterm op:',
 	  'search:no_results' => 'Geen resultaten:',
 	  'search:matched' => 'Gevonden:',
@@ -21,6 +22,7 @@ if(is_plugin_enabled('search')){
 	  'search:comment_on' => 'Reacties op "%s"',
 	  'search:unavailable_entity' => 'Niet beschikbare Entity',
 	);
+	
 	add_translation("nl", $language);
 }
 ?>
