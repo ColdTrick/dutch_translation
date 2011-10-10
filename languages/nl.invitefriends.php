@@ -1,36 +1,28 @@
 <?php
-	/**
-	* Dutch translation.
-	* 
-	* @package dutch_translation
-	* @author ColdTrick IT Solutions
-	* @copyright Coldtrick IT Solutions 2010
-	* @link http://www.coldtrick.com/
-	*/
-if(is_plugin_enabled('invitefriends')){
+if(elgg_is_active_plugin("invitefriends")){
 	$language = array (
-	  'invitefriends:email_error' => 'Uitnodigingen zijn verstuurd, echter de volgende adressen zijn ongeldig: %s',
-	  'friends:invite' => 'Vrienden uitnodigen',
-	  'invitefriends:introduction' => 'Om vrienden uit te nodigen om lid te worden van dit netwerk, vul de e-mail adressen hieronder in (een per regel):',
-	  'invitefriends:message' => 'Geeft een bericht op welke in de uitnodiging komt te staan:',
-	  'invitefriends:subject' => 'Uitnodiging om lid te worden van %s',
-	  'invitefriends:success' => 'Je vrienden zijn uitgenodigd.',
-	  'invitefriends:failure' => 'Je vrienden konden niet worden uitgenodigd.',
-	  'invitefriends:message:default' => '
-Hallo,
-
-Ik wil je uitnodigen om lid te worden van mijn netwerk op %s.',
-	  'invitefriends:email' => '
-Je bent uitgenodigd om lid te worden van %s door %s. Ze hebben het volgende bericht toegevoegd:
+	  'invitefriends:registration_disabled' => 'Registratie van nieuwe gebruikers is uitgeschakeld op deze site, je kunt geen nieuwe gebruikers uitnodigen.',
+	  'invitefriends:invitations_sent' => 'Aantal verzonden uitnodigingen: %s. De volgende problemen zijn opgetreden:',
+	  'invitefriends:email_error' => 'De volgende adressen zijn ongeldig: %s',
+	  'invitefriends:already_members' => 'De volgende zijn al lid: %s',
+	  'invitefriends:noemails' => 'Geen e-mail adressen opgegeven.',
+	  'invitefriends:email' => 'Je bent uitgenodigd om lid te worden van %s door %s. Ze hebben het volgende bericht toegevoegd:
 
 %s
 
 Om lid te worden, klik op de onderstaande link:
 
-	%s
+%s
 
 Je zult ze direct als vriend hebben als je je account hebt aangemaakt.',
+	  'friends:invite' => 'Vrienden uitnodigen',
+	  'invitefriends:introduction' => 'Om vrienden uit te nodigen om lid te worden van dit netwerk, vul de e-mail adressen hieronder in (een per regel):',
+	  'invitefriends:message' => 'Geeft een bericht op welke in de uitnodiging komt te staan:',
+	  'invitefriends:subject' => 'Uitnodiging om lid te worden van %s',
+	  'invitefriends:success' => 'Je vrienden zijn uitgenodigd.',
+	  'invitefriends:message:default' => 'Hallo,
+
+Ik wil je uitnodigen om lid te worden van mijn netwerk op %s.',
 	);
 	add_translation("nl", $language);
 }
-?>

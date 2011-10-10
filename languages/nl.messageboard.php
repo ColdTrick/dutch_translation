@@ -1,14 +1,9 @@
 <?php
-	/**
-	* Dutch translation.
-	* 
-	* @package dutch_translation
-	* @author ColdTrick IT Solutions
-	* @copyright Coldtrick IT Solutions 2010
-	* @link http://www.coldtrick.com/
-	*/
-if(is_plugin_enabled('messageboard')){
+if(elgg_is_active_plugin("messageboard")){
 	$language = array (
+	  'messageboard:owner' => '%s\'s berichten box',
+	  'messageboard:owner_history' => '%s\'s berichten op %s\'s berichten box',
+	  'river:messageboard:user:default' => '%s plaatste op %s\'s berichten box',
 	  'messageboard:history:title' => 'Geschiedenis',
 	  'messageboard:replyon' => 'antwoord op',
 	  'messageboard:board' => 'Berichten box',
@@ -20,11 +15,6 @@ if(is_plugin_enabled('messageboard')){
 	  'messageboard:num_display' => 'Aantal berichten om weer te geven',
 	  'messageboard:desc' => 'Dit is een berichten box die je op je profiel kunt plaatsen waar andere gebruikers op kunnen reageren.',
 	  'messageboard:user' => '%s\'s berichten box',
-	  'messageboard:river:annotate' => '%s heeft een nieuwe reactie op een bericht.',
-	  'messageboard:river:create' => '%s heeft de berichten box toegevoegd.',
-	  'messageboard:river:update' => '%s heeft de berichten box bijgewerkt.',
-	  'messageboard:river:added' => '%s plaatste op',
-	  'messageboard:river:messageboard' => 'berichten box',
 	  'messageboard:posted' => 'Je bericht is succesvol geplaatst.',
 	  'messageboard:deleted' => 'Je bericht is succesvol verwijderd.',
 	  'messageboard:email:subject' => 'Er is een nieuwe reactie op een bericht!',
@@ -49,4 +39,3 @@ Je kunt niet antwoorden op deze email.',
 	);
 	add_translation("nl", $language);
 }
-?>

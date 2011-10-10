@@ -7,7 +7,7 @@
 	* @copyright Coldtrick IT Solutions 2010
 	* @link http://www.coldtrick.com/
 	*/
-if(is_plugin_enabled('search')){
+if(elgg_is_active_plugin('search')){
 	$language = array (
 	  'search:comment_by' => 'door',
 	  'search:enter_term' => 'Geef een zoekterm op:',
@@ -25,4 +25,3 @@ if(is_plugin_enabled('search')){
 	
 	add_translation("nl", $language);
 }
-?>

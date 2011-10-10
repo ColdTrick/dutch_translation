@@ -1,14 +1,15 @@
 <?php
-	/**
-	* Dutch translation.
-	* 
-	* @package dutch_translation
-	* @author ColdTrick IT Solutions
-	* @copyright Coldtrick IT Solutions 2010
-	* @link http://www.coldtrick.com/
-	*/
-if(is_plugin_enabled('bookmarks')){
+if(elgg_is_active_plugin("bookmarks")){
 	$language = array (
+	  'bookmarks:edit' => 'Bewerk favoriet',
+	  'bookmarks:owner' => '%s\'s favorieten',
+	  'bookmarks:none' => 'Geen favorieten',
+	  'river:create:object:bookmarks' => '%s maakte %s aan als favoriet',
+	  'river:comment:object:bookmarks' => '%s reageerde op een favoriet %s',
+	  'bookmarks:river:annotate' => 'een reactie op deze favoriet',
+	  'bookmarks:nogroup' => 'Deze groep heeft nog geen favorieten',
+	  'bookmarks:no_title' => 'Geen titel',
+	  'bookmarks:save:invalid' => 'Het adres van de favoriet is ongeldig en kon niet worden opgeslagen.',
 	  'bookmarks:morebookmarks' => 'Meer favorieten',
 	  'bookmarks:this:group' => 'Favoriet in %s',
 	  'bookmarks:bookmarklet:group' => 'Verkrijg groeps bookmarklet',
@@ -16,14 +17,12 @@ if(is_plugin_enabled('bookmarks')){
 	  'bookmarks:enablebookmarks' => 'Schakel groeps favorieten in',
 	  'bookmarks' => 'Favorieten',
 	  'bookmarks:add' => 'Favoriet toevoegen',
-	  'bookmarks:read' => 'Toon favorieten',
 	  'bookmarks:friends' => 'Favorieten van vrienden',
 	  'bookmarks:everyone' => 'Alle Site favorieten',
 	  'bookmarks:this' => 'Voeg favoriet toe',
 	  'bookmarks:bookmarklet' => 'Browser plugin',
 	  'bookmarks:inbox' => 'Favorieten inbox',
 	  'bookmarks:more' => 'Meer favorieten',
-	  'bookmarks:shareditem' => 'Favoriet',
 	  'bookmarks:with' => 'Deel met',
 	  'bookmarks:new' => 'Een nieuwe favoriet',
 	  'bookmarks:via' => 'via favorieten',
@@ -33,8 +32,6 @@ if(is_plugin_enabled('bookmarks')){
 	  'bookmarks:shared' => 'Favoriet',
 	  'bookmarks:visit' => 'Ga naar de pagina',
 	  'bookmarks:recent' => 'Recente favorieten',
-	  'bookmarks:river:created' => '%s deelde',
-	  'bookmarks:river:annotate' => '%s reageerde op',
 	  'bookmarks:river:item' => 'een favoriet',
 	  'item:object:bookmarks' => 'Favorieten',
 	  'bookmarks:widget:description' => 'Deze widget is ontworpen voor je Dashboard en laat je de laatste favorieten in de Inbox zien.',
@@ -46,7 +43,5 @@ if(is_plugin_enabled('bookmarks')){
 	  'bookmarks:save:failed' => 'Je favoriet kon niet worden opgeslagen. Probeer het nogmaals.',
 	  'bookmarks:delete:failed' => 'Je favoriet kon niet worden verwijderd. Probeer het nogmaals.',
 	);
-	
 	add_translation("nl", $language);
 }
-?>

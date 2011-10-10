@@ -1,23 +1,9 @@
 <?php
-	/**
-	* Dutch translation.
-	* 
-	* @package dutch_translation
-	* @author ColdTrick IT Solutions
-	* @copyright Coldtrick IT Solutions 2009
-	* @link http://www.coldtrick.com/
-	*/
-if(is_plugin_enabled('tinymce')){
-	$dutch = array(
-
-		/**
-		* Menu items and titles
-		*/
-
-		'tinymce:remove' => "Voeg toe/verwijder editor",
-
+if(elgg_is_active_plugin("tinymce")){
+	$language = array (
+	  'tinymce:remove' => 'Verwijder editor',
+	  'tinymce:add' => 'Toon editor',
+	  'tinymce:word_count' => 'Aantal woorden:',
 	);
-	
-	add_translation("nl", $dutch);
+	add_translation("nl", $language);
 }
-?>

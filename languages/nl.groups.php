@@ -1,14 +1,64 @@
 <?php
-	/**
-	* Dutch translation.
-	* 
-	* @package dutch_translation
-	* @author ColdTrick IT Solutions
-	* @copyright Coldtrick IT Solutions 2010
-	* @link http://www.coldtrick.com/
-	*/
-if(is_plugin_enabled('groups')){
+if(elgg_is_active_plugin("groups")){
 	$language = array (
+	  'groups:add' => 'Maak een nieuwe groep',
+	  'groups:members:title' => 'Leden van %s',
+	  'groups:members:more' => 'Bekijk alle leden',
+	  'groups:permissions:error' => 'Je hebt hier geen toegang toe',
+	  'groups:ingroup' => 'in de groep',
+	  'groups:featuredon' => '%s is nu een aangeraden groep',
+	  'groups:unfeatured' => '%s is verwijderd van de aangeraden groepen',
+	  'groups:featured_error' => 'Ongeldige groep.',
+	  'groups:invite:title' => 'Nodig vrienden uit in deze groep',
+	  'groups:nofriendsatall' => 'Je hebt geen vrienden om uit te nodigen!',
+	  'groups:search:title' => 'Zoek naar groepen met de tag \'%s\'',
+	  'groups:search:none' => 'Geen overeenkomende groepen gevonden',
+	  'groups:activity' => 'Groep activiteit',
+	  'groups:enableactivity' => 'Schakel groep activiteit in',
+	  'groups:activity:none' => 'Er is nog geen groep activiteit',
+	  'groups:more' => 'Meer groepen',
+	  'groups:none' => 'Geen groepen',
+	  'groups:access:group' => 'Allen voor groepsleden',
+	  'groups:closedgroup:request' => 'Om lid te worden, klik op de "lidmaatschap aanvragen" menu link',
+	  'groups:lastcomment' => 'Laatste reactie %s door %s',
+	  'discussion' => 'Discussie',
+	  'discussion:add' => 'Nieuwe discussie',
+	  'discussion:latest' => 'Laatste discussie',
+	  'discussion:group' => 'Groep discussies',
+	  'discussion:topic:created' => 'Het discussie onderwerp is aangemaakt.',
+	  'discussion:topic:updated' => 'Het discussie onderwerp is bijgewerkt.',
+	  'discussion:topic:deleted' => 'Het discussie onderwerp is verwijderd.',
+	  'discussion:topic:notfound' => 'Discussie onderwerp niet gevonden',
+	  'discussion:error:notsaved' => 'Fout tijdens het opslaan van dit onderwerp',
+	  'discussion:error:missing' => 'Zowel titel als bericht zijn verplichte velden',
+	  'discussion:error:permissions' => 'Je hebt geen rechten om deze actie uit te mogen voeren',
+	  'discussion:error:notdeleted' => 'Het discussie onderwerp kon niet worden verwijderd',
+	  'discussion:reply:deleted' => 'Reactie op de discussie is verwijderd.',
+	  'discussion:reply:error:notdeleted' => 'De reactie op de discussie kon niet worden verwijderd',
+	  'reply:this' => 'Reageer hierop',
+	  'groups:forum:created' => '%s aangemaakt met %d reacties',
+	  'groups:forum:created:single' => '%s aangemaakt met %d reacties',
+	  'groups:removeuser' => 'Verwijder uit groep',
+	  'groups:cantremove' => 'Kan de gebruiker niet verwijderen uit de groep',
+	  'groups:removed' => '%s succesvol verwijderd uit de groep',
+	  'groups:updated' => 'Laatste reactie door %s %s',
+	  'groups:started' => 'Gestart door %s',
+	  'groups:invite:body' => 'Beste %s,
+
+%s heeft je uitgenodigd om lid te worden van de \'%s\' groep. 
+
+Klik op onderstaande link om je uitnodigingen te bekijken
+%s
+
+%s',
+	  'river:create:group:default' => '%s heeft de groep %s gemaakt',
+	  'river:join:group:default' => '%s is lid geworden van de groep %s',
+	  'river:create:object:groupforumtopic' => '%s begon een nieuwe discussie %s',
+	  'river:reply:object:groupforumtopic' => '%s reageerde op de discussie %s',
+	  'groups:allowhiddengroups' => 'Wil je privï¿½ (onzichtbare) groepen toestaan?',
+	  'group:notfound' => 'Kon de groep  niet vinden',
+	  'groups:ecml:discussion' => 'Groep discussies',
+	  'groups:ecml:groupprofile' => 'Groep profielen',
 	  'groups:invite:remove:check' => 'Weet je zeker dat je deze uitnodiging wilt verwijderen?',
 	  'groups:invitekilled' => 'De uitnodiging is verwijderd',
 	  'groups:invitations' => 'Groeps uitnodigingen',
@@ -16,8 +66,6 @@ if(is_plugin_enabled('groups')){
 	  'groups:invitations:none' => 'Er zijn geen openstaande uitnodigingen op dit moment',
 	  'groups:visibility' => 'Wie kan deze groep zien?',
 	  'groups:notmember' => 'Sorry, je bent geen lid van deze groep',
-	  'groups:river:togroup' => 'aan de groep',
-	  'groups:allowhiddengroups' => 'Wil je privé (onzichtbare) groepen toestaan?',
 	  'grouptopic:notfound' => 'Het onderwerp kon niet gevonden worden',
 	  'grouppost:nopost' => 'Lege post',
 	  'groups' => 'Groepen',
@@ -25,7 +73,6 @@ if(is_plugin_enabled('groups')){
 	  'groups:yours' => 'Jouw groepen',
 	  'groups:user' => '%s\'s groepen',
 	  'groups:all' => 'Alle site groepen',
-	  'groups:new' => 'Maak een nieuwe groep',
 	  'groups:edit' => 'Bewerk groep',
 	  'groups:delete' => 'Verwijder groep',
 	  'groups:membershiprequests' => 'Beheer lidmaatschap aanvragen',
@@ -49,8 +96,6 @@ if(is_plugin_enabled('groups')){
 	  'groups:featured' => 'Aangeraden groepen',
 	  'groups:makeunfeatured' => 'Afraden',
 	  'groups:makefeatured' => 'Aanraden',
-	  'groups:featuredon' => 'Je hebt deze groep aangeraden.',
-	  'groups:unfeature' => 'Je hebt deze groep verwijderd van de aangeraden lijst',
 	  'groups:joinrequest' => 'Verzoek lidmaatschap',
 	  'groups:join' => 'Wordt lid',
 	  'groups:leave' => 'Verlaat groep',
@@ -72,15 +117,10 @@ if(is_plugin_enabled('groups')){
 	  'groups:access:private' => 'Gesloten - Gebruikers moeten worden uitgenodigd',
 	  'groups:access:public' => 'Open - Iedere gebruiker kan lid worden',
 	  'groups:closedgroup' => 'Deze groep is besloten. Om lid te worden klik op de "Verzoek lidmaatschap" link in het menu.',
-	  'groups:enablepages' => 'Activeer groep pagina\'s',
 	  'groups:enableforum' => 'Activeer groep forum',
-	  'groups:enablefiles' => 'Activeer groep bestanden',
 	  'groups:yes' => 'ja',
 	  'groups:no' => 'nee',
-	  'group:created' => '%s aangemaakt met %d berichten',
 	  'groups:lastupdated' => 'Laatst bijgewerkte %s door %s',
-	  'groups:pages' => 'Groeps pagina\'s',
-	  'groups:files' => 'Groeps bestanden',
 	  'group:replies' => 'Reacties',
 	  'groups:forum' => 'Groep forum',
 	  'groups:addtopic' => 'Nieuw onderwerp',
@@ -124,23 +164,16 @@ if(is_plugin_enabled('groups')){
 	  'groups:userinvited' => 'Gebruiker is uitgenodigd.',
 	  'groups:usernotinvited' => 'Gebruiker kon niet worden uitgenodigd.',
 	  'groups:useralreadyinvited' => 'Gebruiker is al uitgenodigd',
-	  'groups:updated' => 'Laatste reactie',
-	  'groups:started' => 'Opgestart door',
 	  'groups:joinrequest:remove:check' => 'Weet je zeker dat je dit lidmaatschaps verzoek wilt verwijderen?',
 	  'groups:invite:subject' => '%s je bent uitgenodigd om lid te worden van %s!',
-	  'groups:invite:body' => 'Beste %s,
-
-Je bent uitgenodigd om lid te worden van de \'%s\' groep, om te accepteren klik hier:
-
-%s',
 	  'groups:welcome:subject' => 'Welkom bij de %s groep!',
 	  'groups:welcome:body' => 'Beste %s!
 
 Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
 
 %s',
-	  'groups:request:subject' => '%s wil lid worden van %s',
-	  'groups:request:body' => 'Beste %s,
+  'groups:request:subject' => '%s wil lid worden van %s',
+  'groups:request:body' => 'Beste %s,
 
 %s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
 
@@ -149,14 +182,6 @@ Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
 of klik hieronder om het verzoek te accepteren:
 
 %s',
-	  'groups:river:member' => '%s is nu lid van',
-	  'groupforum:river:updated' => '%s berwerkte',
-	  'groupforum:river:update' => 'dit forum bericht',
-	  'groupforum:river:created' => '%s cree&euml;rde',
-	  'groupforum:river:create' => 'een nieuw forum bericht getiteld',
-	  'groupforum:river:posted' => '%s plaatste een reactie',
-	  'groupforum:river:annotate:create' => 'op dit forum bericht',
-	  'groupforum:river:postedtopic' => '%s cree&euml;rde een nieuw forum bericht getiteld',
 	  'groups:nowidgets' => 'Er zijn geen widgets gedefineerd voor deze groep.',
 	  'groups:widgets:members:title' => 'Groepsleden',
 	  'groups:widgets:members:description' => 'Lijst van groepsleden.',
@@ -178,4 +203,3 @@ of klik hieronder om het verzoek te accepteren:
 	);
 	add_translation("nl", $language);
 }
-?>

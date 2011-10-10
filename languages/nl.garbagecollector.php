@@ -1,15 +1,5 @@
 <?php
 	/**
-	 * Elgg garbage collector language pack.
-	 * 
-	 * @package ElggGarbageCollector
-	 * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU Public License version 2
-	 * @author Curverider Ltd
-	 * @copyright Curverider Ltd 2008
-	 * @link http://elgg.com/
-	 */
-
-	/**
 	* Dutch translation.
 	* 
 	* @package dutch_translation
@@ -17,7 +7,7 @@
 	* @copyright Coldtrick IT Solutions 2009
 	* @link http://www.coldtrick.com/
 	*/
-if(is_plugin_enabled('garbagecollector')){
+if(elgg_is_active_plugin('garbagecollector')){
 	$dutch = array(
 	
 		/**
@@ -43,4 +33,3 @@ if(is_plugin_enabled('garbagecollector')){
 	
 	add_translation("nl", $dutch);
 }
-?>

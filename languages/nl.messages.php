@@ -1,19 +1,19 @@
 <?php
-	/**
-	* Dutch translation.
-	* 
-	* @package dutch_translation
-	* @author ColdTrick IT Solutions
-	* @copyright Coldtrick IT Solutions 2010
-	* @link http://www.coldtrick.com/
-	*/
-if(is_plugin_enabled('messages')){
+if(elgg_is_active_plugin("messages")){
 	$language = array (
+	  'messages:user' => '%s\'s postvak in',
+	  'messages:add' => 'Schrijf een bericht',
+	  'messages:recipient' => 'Kies een ontvanger…',
+	  'messages:to_user' => 'Aan: %s',
+	  'messages:success:delete:single' => 'Bericht is verwijderd',
+	  'messages:success:delete' => 'Berichten verwijderd',
+	  'messages:success:read' => 'Bericht gemarkeerd als gelezen',
+	  'messages:error:messages_not_selected' => 'Geen berichten geselecteerd',
+	  'messages:error:delete:single' => 'Fout tijdens het verwijderen van het bericht',
+	  'messages:deleted_sender' => 'Verwijderde gebruiker',
 	  'messages:user:blank' => 'Je hebt niemand geselecteerd om dit naar toe te sturen.',
 	  'messages' => 'Berichten',
 	  'messages:back' => 'terug naar berichten',
-	  'messages:user' => 'Jouw Postvak In',
-	  'messages:sentMessages' => 'Verstuur berichten',
 	  'messages:posttitle' => '%s\'s berichten: %s',
 	  'messages:inbox' => 'Postvak In',
 	  'messages:send' => 'Verstuur een bericht',
@@ -38,8 +38,6 @@ if(is_plugin_enabled('messages')){
 	  'messages:error' => 'Er was een probleem tijdens het opslaan van je bericht. Probeer het nogmaals.',
 	  'item:object:messages' => 'Berichten',
 	  'messages:posted' => 'Je bericht is succesvol verzonden.',
-	  'messages:deleted' => 'Je bericht is succesvol verwijderd.',
-	  'messages:markedread' => 'Je berichten zijn succesvol gemarkeerd als gelezen.',
 	  'messages:email:subject' => 'Je hebt een nieuw bericht!',
 	  'messages:email:body' => 'Je hebt een nieuw bericht van %s. Het bericht is:
 
@@ -63,4 +61,3 @@ Je kunt niet antwoorden op deze email.',
 	);
 	add_translation("nl", $language);
 }
-?>
