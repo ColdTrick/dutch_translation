@@ -1,9 +1,11 @@
 <?php
 if(elgg_is_active_plugin("blog")){
 	$language = array (
+	  'blog:archives' => 'Archieven',
+	  'blog:group' => 'Groep blog',
+	  'blog:enableblog' => 'Groep blog inschakelen',
 	  'blog:blogs' => 'Blogs',
 	  'blog:revisions' => 'Revisies',
-	  'blog:archives' => 'Archiven',
 	  'blog:blog' => 'Blog',
 	  'blog:title:user_blogs' => '%s\'s blogs',
 	  'blog:title:all_blogs' => 'Alle site blogs',
@@ -40,8 +42,6 @@ if(elgg_is_active_plugin("blog")){
 	  'blog:widget:description' => 'Deze widget toont je laatste blog berichten',
 	  'blog:moreblogs' => 'Meer blog berichten',
 	  'blog:numbertodisplay' => 'Aantal blog berichten om te tonen',
-	  'blog:enableblog' => 'Groeps blog inschakelen',
-	  'blog:group' => 'Groeps blog',
 	  'blog' => 'Blog',
 	  'blog:newpost' => 'Nieuw blog bericht',
 	  'blog:never' => 'nooit',

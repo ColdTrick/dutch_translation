@@ -7,6 +7,10 @@ Provides a Dutch translation for Elgg
 1. Version history
 
 == 1. Version history ==
+x.x:
+
+- fixed: some bad translations
+
 1.8.0.1 (2011-10-10):
 
 - added: all Elgg bundled plugins and core translated
