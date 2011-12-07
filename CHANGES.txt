@@ -4,6 +4,7 @@ x.x:
 - added: missing language keys for Elgg 1.8.1
 - fixed: some bad translations
 - changed: moved changelog to CHANGES.txt
+- removed: index.php was legacy from previous version
 
 1.8.0.1 (2011-10-10):
 
