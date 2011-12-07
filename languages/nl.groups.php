@@ -1,6 +1,14 @@
 <?php
-if(elgg_is_active_plugin("groups")){
+if(elgg_is_active_plugin('groups')){
 	$language = array (
+	  'discussion:none' => 'Geen discussies',
+	  'discussion:reply:title' => 'Reactie door %s',
+	  'groups:invite:body' => 'Beste %s,
+	
+	%s heeft je uitgenodigd om lid te worden van de \'%s\' groep. 
+	
+	Klik op onderstaande link om je uitnodigingen te bekijken
+	%s',
 	  'groups:add' => 'Maak een nieuwe groep',
 	  'groups:members:title' => 'Leden van %s',
 	  'groups:members:more' => 'Bekijk alle leden',
@@ -43,14 +51,6 @@ if(elgg_is_active_plugin("groups")){
 	  'groups:removed' => '%s succesvol verwijderd uit de groep',
 	  'groups:updated' => 'Laatste reactie door %s %s',
 	  'groups:started' => 'Gestart door %s',
-	  'groups:invite:body' => 'Beste %s,
-
-%s heeft je uitgenodigd om lid te worden van de \'%s\' groep. 
-
-Klik op onderstaande link om je uitnodigingen te bekijken
-%s
-
-%s',
 	  'river:create:group:default' => '%s heeft de groep %s gemaakt',
 	  'river:join:group:default' => '%s is lid geworden van de groep %s',
 	  'river:create:object:groupforumtopic' => '%s begon een nieuwe discussie %s',
@@ -168,20 +168,20 @@ Klik op onderstaande link om je uitnodigingen te bekijken
 	  'groups:invite:subject' => '%s je bent uitgenodigd om lid te worden van %s!',
 	  'groups:welcome:subject' => 'Welkom bij de %s groep!',
 	  'groups:welcome:body' => 'Beste %s!
-
-Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
-
-%s',
-  'groups:request:subject' => '%s wil lid worden van %s',
-  'groups:request:body' => 'Beste %s,
-
-%s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
-
-%s
-
-of klik hieronder om het verzoek te accepteren:
-
-%s',
+	
+	Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
+	
+	%s',
+	  'groups:request:subject' => '%s wil lid worden van %s',
+	  'groups:request:body' => 'Beste %s,
+	
+	%s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
+	
+	%s
+	
+	of klik hieronder om het verzoek te accepteren:
+	
+	%s',
 	  'groups:nowidgets' => 'Er zijn geen widgets gedefineerd voor deze groep.',
 	  'groups:widgets:members:title' => 'Groepsleden',
 	  'groups:widgets:members:description' => 'Lijst van groepsleden.',

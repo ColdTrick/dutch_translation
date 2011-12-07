@@ -1,6 +1,9 @@
 <?php
-if(elgg_is_active_plugin("file")){
+
+if(elgg_is_active_plugin('file')){
 	$language = array (
+	  'file:list:list' => 'Toon in lijst weergave',
+	  'file:list:gallery' => 'Toon in galerij weergave',
 	  'file:friends' => 'Bestanden van vrienden',
 	  'file:more' => 'Meer bestanden',
 	  'file:list' => 'lijst weergave',

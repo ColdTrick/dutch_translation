@@ -1,6 +1,7 @@
 <?php
-if(elgg_is_active_plugin("twitter_api")){
+if(elgg_is_active_plugin('twitter_api')){
 	$language = array (
+	  'twitter_api:usersettings:site_not_configured' => 'Een beheerder moet Twitter eerst instellen voordat het gebruikt kan worden.',
 	  'twitter_api' => 'Twitter Services',
 	  'twitter_api:requires_oauth' => 'Twitter Services vereist dat de OAuth libraries plugin is ingeschakeld.',
 	  'twitter_api:consumer_key' => 'Consumer Key',
