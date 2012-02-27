@@ -1,4 +1,8 @@
 = Version history =
+x.x:
+
+- changed: updated core language with missing keys for Elgg 1.8.3
+
 1.8.1 (2011-12-07):
 
 - added: missing language keys for Elgg 1.8.1
