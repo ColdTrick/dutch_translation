@@ -8,11 +8,11 @@ if(elgg_is_active_plugin("notifications")){
 	  'notifications:subscriptions:personal:title' => 'Persoonlijke notificatie',
 	  'notifications:subscriptions:collections:edit' => 'Om je vrienden collecties aan te passen, klik hier.',
 	  'notifications:subscriptions:changesettings' => 'Notificaties',
-	  'notifications:subscriptions:changesettings:groups' => 'Groeps notificaties',
+	  'notifications:subscriptions:changesettings:groups' => 'Groepsnotificaties',
 	  'notification:method:email' => 'E-mail',
 	  'notifications:subscriptions:title' => 'Notificatie per gebruiker',
 	  'notifications:subscriptions:description' => 'Om notificaties te ontvangen wanneer je vrienden nieuwe content plaatsen, vindt ze hieronder en selecteer de meldings manier die je wilt gebruiken.',
-	  'notifications:subscriptions:groups:description' => 'Om een notificatie te ontvangen wanneer er nieuwe content is in een groep waarvan je lid bent, zoek de groep hieronder op en selecteer de meldings manier die je wilt gebruiken.',
+	  'notifications:subscriptions:groups:description' => 'Om een notificatie te ontvangen wanneer er nieuwe content is in een groep waarvan je lid bent, zoek de groep hieronder op en selecteer de meldingsmanier die je wilt gebruiken.',
 	  'notifications:subscriptions:success' => 'Je notificatie instellingen zijn opgeslagen.',
 	);
 	add_translation("nl", $language);

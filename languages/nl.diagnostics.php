@@ -2,31 +2,33 @@
 if(elgg_is_active_plugin("diagnostics")){
 	$language = array (
 	  'admin:develop_utilities:diagnostics' => 'Systeem diagnose',
+	   'admin:administer_utilities:diagnostics' => 'Systeemdiagnose',
 	  'diagnostics:report' => 'Diagnose rapport',
-	  'diagnostics:unittester:warning' => 'WAARSCHUWING: Deze testen kunnen debugging objecten achterlaten in de database. <br>NIET GEBRUIKEN OP PRODUCTIE SITES!',
 	  'diagnostics:download' => 'Download',
 	  'diagnostics:header' => '========================================================================
-Elgg Diagnostic Report
-Generated %s by %s
-========================================================================',
-  'diagnostics:report:basic' => 'Elgg Release %s, version %s
-
-------------------------------------------------------------------------',
-  'diagnostics:report:php' => 'PHP info:
-%s
-------------------------------------------------------------------------',
-  'diagnostics:report:plugins' => 'Installed plugins and details:
-
-%s
-------------------------------------------------------------------------',
-  'diagnostics:report:md5' => 'Installed files and checksums:
+	Elgg Diagnostic Report
+	Generated %s by %s
+	========================================================================',
+	  'diagnostics:report:basic' => 'Elgg Release %s, version %s
 	
-%s
-------------------------------------------------------------------------',
-  'diagnostics:report:globals' => 'Global variables:
+	------------------------------------------------------------------------',
+	  'diagnostics:report:php' => 'PHP info:
+	%s
+	------------------------------------------------------------------------',
+	  'diagnostics:report:plugins' => 'Installed plugins and details:
 	
-%s
-------------------------------------------------------------------------',
+	%s
+	------------------------------------------------------------------------',
+	  'diagnostics:report:md5' => 'Installed files and checksums:
+		
+	%s
+	------------------------------------------------------------------------',
+	  'diagnostics:report:globals' => 'Global variables:
+		
+	%s
+	------------------------------------------------------------------------',
+	  'diagnostics' => 'Systeem diagnose',
+	  'diagnostics:description' => 'Het volgende diagnostische rapport is nuttig voor de diagnose van problemen met Elgg, en moet worden bijgevoegd aan een bug report die je indient.',
 	  'diagnostics' => 'Systeem diagnose',
 	  'diagnostics:unittester' => 'Unit Testen',
 	  'diagnostics:description' => 'Het volgende diagnostische rapport is nuttig voor de diagnose van problemen met Elgg, en moet worden bijgevoegd aan een bug report die je indient.',

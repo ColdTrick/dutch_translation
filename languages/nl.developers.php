@@ -1,6 +1,10 @@
 <?php
 if(elgg_is_active_plugin("developers")){
 	$language = array (
+	  'admin:develop_tools:unit_tests' => 'Unittesten',
+	  'developers:unit_tests:description' => 'Elgg heeft unit en integratie testen voor het detecteren van bugs in de core classes en functies.',
+	  'developers:unit_tests:warning' => 'Waarschuwing: Doe deze testen niet op een productie site. Deze kan de database beschadigen.',
+	  'developers:unit_tests:run' => 'Uitvoeren',
 	  'admin:develop_tools' => 'Tools',
 	  'admin:develop_tools:preview' => 'Theming zandbak',
 	  'admin:develop_tools:inspect' => 'Inspecteer',

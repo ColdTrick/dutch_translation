@@ -14,7 +14,7 @@ if(elgg_is_active_plugin('garbagecollector')){
 		* Menu items and titles
 		*/
 
-		'garbagecollector:period' => 'Hoevaak moet de Elgg garbage collector draaien?',
+		'garbagecollector:period' => 'Hoe vaak moet de Elgg garbage collector draaien?',
 
 		'garbagecollector:weekly' => 'Eens per week',
 		'garbagecollector:monthly' => 'Eens per maand',
