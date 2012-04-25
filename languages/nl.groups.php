@@ -1,7 +1,13 @@
 <?php
-if(elgg_is_active_plugin('groups')){
-	$language = array (
-	  'groups:search_in_group' => 'Zoek in deze groep',
+$language = array (
+  'groups:notification' => '%s heeft een nieuw discussie-onderwerp geopend op %s:
+
+%s
+%s
+
+Bekijk en reageer op de discussie:
+%s',
+  'groups:search_in_group' => 'Zoek in deze groep',
   'groups:acl' => 'Groep: %s',
   'discussion:none' => 'Geen discussies',
   'discussion:reply:title' => 'Reactie door %s',
@@ -202,6 +208,5 @@ if(elgg_is_active_plugin('groups')){
   'grouptopic:blank' => 'Geen onderwerp',
   'groups:deletewarning' => 'Weet je zeker dat je deze groep wilt verwijderen? Dit kan niet ongedaan worden gemaakt!',
   'groups:joinrequestkilled' => 'Lidmaatschap verzoek verwijderd.',
-	);
-	add_translation("nl", $language);
-}
+);
+add_translation("nl", $language);
