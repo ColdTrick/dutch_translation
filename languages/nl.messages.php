@@ -1,5 +1,4 @@
 <?php
-if(elgg_is_active_plugin("messages")){
 $language = array (
   'messages:unreadcount' => '%s ongelezen',
   'messages:user' => '%s\'s postvak in',
@@ -59,6 +58,5 @@ Je kunt niet antwoorden op deze email.',
   'messages:nopermission' => 'Je hebt geen toegang om dit bericht te mogen verwijderen.',
   'messages:nomessages' => 'Er zijn geen berichten om weer te geven.',
   'messages:user:nonexist' => 'We konden de geadresseerde niet vinden in de gebruikers database.',
-	);
-	add_translation("nl", $language);
-}
+);
+add_translation("nl", $language);
