@@ -116,7 +116,7 @@ if(elgg_is_active_plugin('groups')){
   'groups:closed' => 'besloten groep',
   'groups:member' => 'leden',
   'groups:searchtag' => 'Zoek naar groepen op tag',
-  'groups:access:private' => 'Gesloten - Gebruikers moeten worden uitgenodigd',
+  'groups:access:private' => 'Gesloten - Gebruikers moeten lidmaatschap aanvragen',
   'groups:access:public' => 'Open - Iedere gebruiker kan lid worden',
   'groups:closedgroup' => 'Deze groep is besloten. Om lid te worden klik op de "Verzoek lidmaatschap" link in het menu.',
   'groups:enableforum' => 'Activeer groep forum',
