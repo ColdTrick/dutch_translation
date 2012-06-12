@@ -1,6 +1,6 @@
 = Version history =
 x.x:
-
+- fixed: incorrect translation for password request
 - fixed: group membership translation error
 
 1.8.3 (2012-04-25):
