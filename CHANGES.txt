@@ -3,6 +3,7 @@ x.x:
 - added: cacheable js view for dutch language
 - fixed: incorrect translation for password request
 - fixed: group membership translation error
+- changed: updated to Elgg 1.8.13 languages
 
 1.8.3 (2012-04-25):
 
