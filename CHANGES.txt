@@ -1,5 +1,5 @@
 = Version history =
-x.x:
+1.8.13 (2013-03-11):
 - added: cacheable js view for dutch language
 - fixed: incorrect translation for password request
 - fixed: group membership translation error
