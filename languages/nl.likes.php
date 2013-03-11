@@ -18,15 +18,15 @@ if(elgg_is_active_plugin("likes")){
 	  'river:likes' => 'vindt %s leuk %s',
 	  'likes:notifications:subject' => '%s vindt je item "%s" leuk',
 	  'likes:notifications:body' => 'Beste %1$s,
-	%2$s vindt je item "%3$s" op %4$s leuk!
-	
-	Bekijk je originele item hier:
-	%5$s
-	of bekijk %2$s\'s profiel hier:
-	%6$s
-	
-	Bedankt,
-	%4$s',
+%2$s vindt je item "%3$s" op %4$s leuk!
+
+Bekijk je originele item hier:
+%5$s
+of bekijk %2$s\'s profiel hier:
+%6$s
+
+Bedankt,
+%4$s',
 	);
 	add_translation("nl", $language);
 }

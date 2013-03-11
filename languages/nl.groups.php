@@ -14,29 +14,29 @@ if(elgg_is_active_plugin("groups")){
 	  'groups:cantcreate' => 'Je mag geen groep aanmaken. Dit is voorbehouden aan beheerders',
 	  'discussion:notification:topic:subject' => 'Er is een nieuwe discussie gestart',
 	  'discussion:notification:reply:body' => '%s reageerde op de discussie %s in de groep %s
-	
-	%s
-	
-	Bekijk en reageer op de discussie
-	%s',
+
+%s
+
+Bekijk en reageer op de discussie
+%s',
 	  'groups:whocancreate' => 'Wie mag er nieuwe groepen aanmaken?',
 	  'groups:notification' => '%s heeft een nieuw discussie-onderwerp geopend op %s:
-	
-	%s
-	%s
-	
-	Bekijk en reageer op de discussie:
-	%s',
+
+%s
+%s
+
+Bekijk en reageer op de discussie:
+%s',
 	  'groups:search_in_group' => 'Zoek in deze groep',
 	  'groups:acl' => 'Groep: %s',
 	  'discussion:none' => 'Geen discussies',
 	  'discussion:reply:title' => 'Reactie door %s',
 	  'groups:invite:body' => 'Beste %s,
 		
-		%s heeft je uitgenodigd om lid te worden van de \'%s\' groep. 
-		
-		Klik op onderstaande link om je uitnodigingen te bekijken
-		%s',
+%s heeft je uitgenodigd om lid te worden van de \'%s\' groep. 
+
+Klik op onderstaande link om je uitnodigingen te bekijken
+%s',
 	  'groups:add' => 'Maak een nieuwe groep',
 	  'groups:members:title' => 'Leden van %s',
 	  'groups:members:more' => 'Bekijk alle leden',
@@ -196,20 +196,20 @@ if(elgg_is_active_plugin("groups")){
 	  'groups:invite:subject' => '%s je bent uitgenodigd om lid te worden van %s!',
 	  'groups:welcome:subject' => 'Welkom bij de %s groep!',
 	  'groups:welcome:body' => 'Beste %s!
-		
-		Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
-		
-		%s',
+
+Je bent nu lid van de \'%s\' groep! Klik hieronder om te beginnen met posten!
+
+%s',
 	  'groups:request:subject' => '%s wil lid worden van %s',
 	  'groups:request:body' => 'Beste %s,
-		
-		%s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
-		
-		%s
-		
-		of klik hieronder om het verzoek te accepteren:
-		
-		%s',
+
+%s wil lid worden van de \'%s\' groep, klik hieronder om zijn/haar profiel te bekijken:
+
+%s
+
+of klik hieronder om het verzoek te accepteren:
+
+%s',
 	  'groups:nowidgets' => 'Er zijn geen widgets gedefinieerd voor deze groep.',
 	  'groups:widgets:members:title' => 'Groepsleden',
 	  'groups:widgets:members:description' => 'Lijst van groepsleden.',

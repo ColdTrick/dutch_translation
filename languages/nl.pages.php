@@ -5,12 +5,12 @@ if(elgg_is_active_plugin("pages")){
 	  'pages:parent_guid' => 'Hoofdpagina',
 	  'pages:new' => 'Een nieuwe pagina',
 	  'pages:notification' => '%s heeft een nieuwe pagina toegevoegd:
-	
-	%s
-	%s
-	
-	Bekijk en reageer op de nieuwe pagina:
-	%s',
+
+%s
+%s
+
+Bekijk en reageer op de nieuwe pagina:
+%s',
 	  'pages:owner' => '%s\'s pagina\'s',
 	  'pages:friends' => 'Pagina\'s van vrienden',
 	  'pages:add' => 'Voeg pagina toe',
