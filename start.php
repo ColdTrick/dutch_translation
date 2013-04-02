@@ -8,5 +8,7 @@
 	* @link http://www.coldtrick.com/
 	*/
 	
-	register_translations(dirname(__FILE__) . "/languages/", true);
+	if (!elgg_get_config("system_cache_enabled", false) || !elgg_get_config("i18n_loaded_from_cache", false)) {
+		register_translations(dirname(__FILE__) . "/languages/", true);
+	}
 	
