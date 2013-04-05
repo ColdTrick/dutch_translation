@@ -1,5 +1,5 @@
 = Version history =
-x.x:
+1.8.13.1 (2013-04-05):
 - changed: improved caching (or listening to it)
 
 1.8.13 (2013-03-11):
