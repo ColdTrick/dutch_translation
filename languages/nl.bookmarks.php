@@ -43,7 +43,7 @@ Bekijk en reageer op de nieuwe snelkoppeling:
 	  'item:object:bookmarks' => 'Favorieten',
 	  'bookmarks:widget:description' => 'Deze widget is ontworpen voor je Dashboard en laat je de laatste favorieten in de Inbox zien.',
 	  'bookmarks:bookmarklet:description' => 'De favorieten Browser plugin maakt het mogelijk om iedere willekeurige pagina te delen met je vrienden, of om gewoon voor jezelf om te onthouden. Om het te gebruiken sleep je de Browser plugin naar je Links balk van je browser: ',
-	  'bookmarks:bookmarklet:descriptionie' => 'Als je Internet Explorer gebruikt moet je met de rechter muisknop op de Brwoser plugin klikken en dan kiezen voor \'toevoegen aan favorieten\' en dan de Links balk.',
+	  'bookmarks:bookmarklet:descriptionie' => 'Als je Internet Explorer gebruikt moet je met de rechter muisknop op de Browser plugin klikken en dan kiezen voor \'toevoegen aan favorieten\' en dan de Links balk.',
 	  'bookmarks:bookmarklet:description:conclusion' => 'Je kunt dan iedere pagina die je bezoekt markeren door op de link te klikken.',
 	  'bookmarks:save:success' => 'Je favoriet is succesvol opgeslagen.',
 	  'bookmarks:delete:success' => 'Je favoriet is succesvol verwijderd.',

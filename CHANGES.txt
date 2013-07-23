@@ -1,8 +1,15 @@
 = Version history =
+
+x.x:
+
+- fixed: typo in bookmarks
+
 1.8.13.1 (2013-04-05):
+
 - changed: improved caching (or listening to it)
 
 1.8.13 (2013-03-11):
+
 - added: cacheable js view for dutch language
 - fixed: incorrect translation for password request
 - fixed: group membership translation error
