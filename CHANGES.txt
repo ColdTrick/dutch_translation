@@ -3,6 +3,7 @@
 x.x:
 
 - fixed: typo in bookmarks
+- removed: unused plugin tranlsation files
 
 1.8.13.1 (2013-04-05):
 
