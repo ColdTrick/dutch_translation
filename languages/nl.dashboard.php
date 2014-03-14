@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("dashboard")){
+
+if (elgg_is_active_plugin("dashboard")) {
 	$language = array (
 	  'dashboard:widget:group:title' => 'Groep activiteit',
 	  'dashboard:widget:group:desc' => 'Bekijk de activiteit van een van je groepen',

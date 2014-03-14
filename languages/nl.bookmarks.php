@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("bookmarks")){
+if (elgg_is_active_plugin("bookmarks")) {
 	$language = array (
 	  'bookmarks:notification' => '%s heeft een nieuwe snelkoppeling toegevoegd:
 

@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("invitefriends")){
+
+if (elgg_is_active_plugin("invitefriends")) {
 	$language = array (
 	  'invitefriends:registration_disabled' => 'Registratie van nieuwe gebruikers is uitgeschakeld op deze site, je kunt geen nieuwe gebruikers uitnodigen.',
 	  'invitefriends:invitations_sent' => 'Aantal verzonden uitnodigingen: %s. De volgende problemen zijn opgetreden:',

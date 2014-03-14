@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("embed")){
+
+if (elgg_is_active_plugin("embed")) {
 	$language = array (
 	  'embed:embed' => 'Embed',
 	  'embed:upload' => 'Upload media',

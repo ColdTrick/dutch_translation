@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("externalpages")){
+
+if (elgg_is_active_plugin("externalpages")) {
 	$language = array (
 	  'admin:appearance:expages' => 'Externe pagina\'s',
 	  'expages:posted' => 'Je pagina is succesvol bijgewerkt.',

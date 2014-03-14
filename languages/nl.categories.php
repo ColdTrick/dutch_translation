@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("categories")){
+
+if (elgg_is_active_plugin("categories")) {
 	$language = array (
 	  'categories' => 'Categorieën',
 	  'categories:settings' => 'Stel Site categorieën in',

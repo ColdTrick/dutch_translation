@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("notifications")){
+
+if (elgg_is_active_plugin("notifications")) {
 	$language = array (
 	  'notifications:subscriptions:friends:title' => 'Vrienden',
 	  'notifications:subscriptions:friends:description' => 'Het volgende is een automatische verzameling van je vrienden. Om updates te ontvangen selecteer hieronder. Dit zal invloed hebben op de betreffende gebruikers in het hoofd notificatie-instellingen overzicht aan de onderkant van deze pagina.',

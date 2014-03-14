@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("reportedcontent")){
+
+if (elgg_is_active_plugin("reportedcontent")) {
 	$language = array (
 	  'admin:administer_utilities:reportedcontent' => 'Gemelde inhoud',
 	  'reportedcontent:this:tooltip' => 'Meld dit aan de beheerder',

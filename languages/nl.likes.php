@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("likes")){
+
+if (elgg_is_active_plugin("likes")) {
 	$language = array (
 	  'likes:delete:confirm' => 'Weet je zeker dat je deze Like wit verwijderen?',
 	  'likes:this' => 'vindt dit leuk',

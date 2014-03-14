@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("developers")){
+
+if (elgg_is_active_plugin("developers")) {
 	$language = array (
 	  'theme_preview:miscellaneous' => 'Overige',
 	  'developers:label:system_cache' => 'Gebruik systeem cache',

@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("file")){
+if (elgg_is_active_plugin("file")) {
 	$language = array (
 	  'file:notification' => '%s heeft een nieuw bestand geupload:
 

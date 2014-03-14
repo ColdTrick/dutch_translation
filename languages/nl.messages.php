@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("messages")){
+
+if (elgg_is_active_plugin("messages")) {
 	$language = array (
 	  'messages:unreadcount' => '%s ongelezen',
 	  'messages:user' => '%s\'s postvak in',

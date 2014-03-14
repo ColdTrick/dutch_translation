@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("uservalidationbyemail")){
+
+if (elgg_is_active_plugin("uservalidationbyemail")) {
 	$language = array (
 	  'admin:users:unvalidated' => 'Ongevalideerd',
 	  'email:validate:subject' => '%s bevestig aub je email adres voor %s!',

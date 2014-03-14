@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("members")){
+
+if (elgg_is_active_plugin("members")) {
 	$language = array (
 	  'members:label:online' => 'Online',
 	  'members:title:searchname' => 'Gebruikers zoeken op %s',

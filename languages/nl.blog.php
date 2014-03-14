@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("blog")){
+if (elgg_is_active_plugin("blog")) {
 	$language = array (
 	  'blog:notification' => '%s heeft een nieuwe blog gepost.
 

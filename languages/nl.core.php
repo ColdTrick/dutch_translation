@@ -1,4 +1,5 @@
 <?php
+
 $language = array (
   'DatabaseException:InvalidDBLink' => 'Verbinding met de database is verbroken',
   'LoginException:Unknown' => 'We konden je niet aanmelden vanwege een onbekende fout',

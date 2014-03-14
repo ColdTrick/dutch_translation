@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("groups")){
+if (elgg_is_active_plugin("groups")) {
 	$language = array (
 	  'groups:owned:user' => 'Groepen van %s',
 	  'groups:membershiprequests:pending' => 'Beheer lidmaatschap aanvragen (%s)',
@@ -33,7 +33,7 @@ Bekijk en reageer op de discussie:
 	  'discussion:reply:title' => 'Reactie door %s',
 	  'groups:invite:body' => 'Beste %s,
 		
-%s heeft je uitgenodigd om lid te worden van de \'%s\' groep. 
+%s heeft je uitgenodigd om lid te worden van de \'%s\' groep.
 
 Klik op onderstaande link om je uitnodigingen te bekijken
 %s',

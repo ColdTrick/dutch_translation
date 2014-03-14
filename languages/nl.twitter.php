@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("twitter")){
+if (elgg_is_active_plugin("twitter")) {
 	$language = array (
 	  'twitter:invalid' => 'Deze widget is geconfigureerd met een ongeldige Twitter gebruikersnaam. Klik op de bewerk icoon om dit aan te passen.',
 	  'twitter:apibug' => '*Wegens een bug in de Twitter 1.0 API, is het mogelijk dat je minder tweets ziet als ingesteld.',

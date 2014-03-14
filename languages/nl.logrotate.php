@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("logrotate")){
+
+if (elgg_is_active_plugin("logrotate")) {
 	$language = array (
 	  'logrotate:period' => 'Hoe vaak moet het systeem logboek worden gearchiveerd?',
 	  'logrotate:delete' => 'Verwijder logboek archieven ouder dan een',

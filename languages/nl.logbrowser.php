@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("logbrowser")){
+if (elgg_is_active_plugin("logbrowser")) {
 	$language = array (
 	  'logbrowser:no_result' => 'Geen resultaten',
 	  'logbrowser:ip_address' => 'IP adres',

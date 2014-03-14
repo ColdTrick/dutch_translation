@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("messageboard")){
+
+if (elgg_is_active_plugin("messageboard")) {
 	$language = array (
 	  'messageboard:owner' => '%s\'s berichten box',
 	  'messageboard:owner_history' => '%s\'s berichten op %s\'s berichten box',

@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("pages")){
+if (elgg_is_active_plugin("pages")) {
 	$language = array (
 	  'pages:parent_guid' => 'Hoofdpagina',
 	  'pages:new' => 'Een nieuwe pagina',

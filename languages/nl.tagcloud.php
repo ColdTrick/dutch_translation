@@ -1,5 +1,6 @@
 <?php
-if(elgg_is_active_plugin("tagcloud")){
+
+if (elgg_is_active_plugin("tagcloud")) {
 	$language = array (
 	  'tagcloud:widget:title' => 'Tag cloud',
 	  'tagcloud:widget:description' => 'Tag cloud',

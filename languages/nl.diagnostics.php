@@ -1,6 +1,6 @@
 <?php
 
-if(elgg_is_active_plugin("diagnostics")){
+if (elgg_is_active_plugin("diagnostics")) {
 	$language = array (
 	  'admin:administer_utilities:diagnostics' => 'Systeemdiagnose',
 	  'diagnostics:report' => 'Diagnose rapport',
