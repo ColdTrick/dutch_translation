@@ -194,7 +194,7 @@ Klik op onderstaande link om je uitnodigingen te bekijken
 	  'groups:useralreadyinvited' => 'Gebruiker is al uitgenodigd',
 	  'groups:joinrequest:remove:check' => 'Weet je zeker dat je dit lidmaatschapsverzoek wilt verwijderen?',
 	  'groups:invite:subject' => '%s je bent uitgenodigd om lid te worden van %s!',
-	  'groups:welcome:subject' => 'Welkom bij de groep '%s'!',
+	  'groups:welcome:subject' => 'Welkom bij de groep \'%s\'!',
 	  'groups:welcome:body' => 'Beste %s!
 
 Je bent nu lid van de groep \'%s\'! Klik hieronder om te beginnen met posten!
