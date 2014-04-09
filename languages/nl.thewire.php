@@ -4,7 +4,7 @@ if (elgg_is_active_plugin("thewire")) {
 	$language = array (
 	  'thewire:by' => 'Wire-bericht door %s',
 	  'thewire:replying' => 'Antwoord op %s (@%s) die schreef',
-	  'thewire:thread' => 'Conversatie',
+	  'thewire:thread' => 'Gesprek',
 	  'thewire:tags' => 'Wire-berichten met de tag \'%s\'',
 	  'thewire:noposts' => 'Nog geen Wire-berichten',
 	  'thewire:update' => 'Bijwerken',
