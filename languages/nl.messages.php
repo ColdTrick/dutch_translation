@@ -3,9 +3,9 @@
 if (elgg_is_active_plugin("messages")) {
 	$language = array (
 	  'messages:unreadcount' => '%s ongelezen',
-	  'messages:user' => '%s\'s postvak in',
+	  'messages:user' => 'Postvak in van %s',
 	  'messages:add' => 'Schrijf een bericht',
-	  'messages:recipient' => 'Kies een ontvanger�',
+	  'messages:recipient' => 'Kies een ontvanger',
 	  'messages:to_user' => 'Aan: %s',
 	  'messages:success:delete:single' => 'Bericht is verwijderd',
 	  'messages:success:delete' => 'Berichten verwijderd',
@@ -16,8 +16,8 @@ if (elgg_is_active_plugin("messages")) {
 	  'messages:user:blank' => 'Je hebt niemand geselecteerd om dit naar toe te sturen.',
 	  'messages' => 'Berichten',
 	  'messages:back' => 'terug naar berichten',
-	  'messages:posttitle' => '%s\'s berichten: %s',
-	  'messages:inbox' => 'Postvak In',
+	  'messages:posttitle' => 'Berichten van %s: %s',
+	  'messages:inbox' => 'Postvak in',
 	  'messages:send' => 'Verstuur een bericht',
 	  'messages:sent' => 'Verstuurde berichten',
 	  'messages:message' => 'Bericht',
@@ -45,11 +45,11 @@ if (elgg_is_active_plugin("messages")) {
 
 %s
 
-Om jouw berichten te bekijken, klik hier:
+Om je berichten te bekijken klik je hier:
 
 %s
 
-Om %s een bericht te sturen, klik hier:
+Om %s een bericht te sturen klik je hier:
 
 %s
 
@@ -59,7 +59,7 @@ Je kunt niet antwoorden op deze email.',
 	  'messages:notdeleted' => 'Sorry we konden dit bericht niet verwijderen.',
 	  'messages:nopermission' => 'Je hebt geen toegang om dit bericht te mogen verwijderen.',
 	  'messages:nomessages' => 'Er zijn geen berichten om weer te geven.',
-	  'messages:user:nonexist' => 'We konden de geadresseerde niet vinden in de gebruikers database.',
+	  'messages:user:nonexist' => 'We konden de geadresseerde niet vinden.',
 	);
 	add_translation("nl", $language);
 }
