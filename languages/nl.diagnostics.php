@@ -3,7 +3,7 @@
 if (elgg_is_active_plugin("diagnostics")) {
 	$language = array (
 	  'admin:administer_utilities:diagnostics' => 'Systeemdiagnose',
-	  'diagnostics:report' => 'Diagnose rapport',
+	  'diagnostics:report' => 'Diagnoserapport',
 	  'diagnostics:download' => 'Download',
 	  'diagnostics:header' => '========================================================================
 		Elgg Diagnostic Report
@@ -28,7 +28,7 @@ if (elgg_is_active_plugin("diagnostics")) {
 		%s
 		------------------------------------------------------------------------',
 	  'diagnostics' => 'Systeem diagnose',
-	  'diagnostics:description' => 'Het volgende diagnostische rapport is nuttig voor de diagnose van problemen met Elgg, en moet worden bijgevoegd aan een bug report die je indient.',
+	  'diagnostics:description' => 'Het volgende diagnostische rapport is nuttig voor de diagnose van problemen met Elgg, en moet worden bijgevoegd aan een bugreport die je indient.',
 	);
 	add_translation("nl", $language);
 }

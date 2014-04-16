@@ -2,12 +2,12 @@
 
 if (elgg_is_active_plugin("logrotate")) {
 	$language = array (
-	  'logrotate:period' => 'Hoe vaak moet het systeem logboek worden gearchiveerd?',
-	  'logrotate:delete' => 'Verwijder logboek archieven ouder dan een',
+	  'logrotate:period' => 'Hoe vaak moet het systeemlogboek worden gearchiveerd?',
+	  'logrotate:delete' => 'Verwijder logboekarchieven ouder dan een',
 	  'logrotate:week' => 'week',
 	  'logrotate:month' => 'maand',
 	  'logrotate:year' => 'jaar',
-	  'logrotate:logdeleted' => 'Log verwijdert',
+	  'logrotate:logdeleted' => 'Log verwijderd',
 	  'logrotate:lognotdeleted' => 'Fout tijdens het verwijderen van de log',
 	  'logrotate:weekly' => 'Iedere week',
 	  'logrotate:monthly' => 'Iedere maand',
