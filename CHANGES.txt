@@ -1,9 +1,11 @@
-= Version history =
+# Version history
 
-x.x:
+x.x ():
 
+- added: Elgg 1.9 translations
 - fixed: typo in bookmarks
-- removed: unused plugin tranlsation files
+- removed: unused plugin translation files
+- removed: temp js fix to load correct javascript translations
 
 1.8.13.1 (2013-04-05):
 

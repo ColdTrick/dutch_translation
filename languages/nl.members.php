@@ -1,14 +1,17 @@
 <?php
 
-if (elgg_is_active_plugin("members")) {
-	$language = array (
-	  'members:label:online' => 'Online',
-	  'members:title:searchname' => 'Gebruikers zoeken op %s',
-	  'members:title:searchtag' => 'Gebruiker met de tag %s',
-	  'members:label:newest' => 'Nieuwste',
-	  'members:label:popular' => 'Populair',
-	  'members:searchtag' => 'Gebruikers zoeken op tag',
-	  'members:searchname' => 'Gebruikers zoeken op naam',
-	);
-	add_translation("nl", $language);
+if (!elgg_is_active_plugin("members")) {
+	return;
 }
+
+$language = array (
+  'members:search' => 'Zoek leden',
+  'members:title:search' => 'Leden zoekresultaat voor %s',
+  'members:total' => 'Totaal aantal leden: %s',
+  'members:title:newest' => 'Nieuwste leden',
+  'members:title:popular' => 'Meest populaire leden',
+  'members:title:online' => 'Online leden',
+  'members:list:popular:none' => 'Er zijn geen leden die vrienden hebben.',
+  'members:label:online' => 'Online',
+);
+add_translation("nl", $language);
