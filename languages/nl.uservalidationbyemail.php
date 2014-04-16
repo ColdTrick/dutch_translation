@@ -3,22 +3,22 @@
 if (elgg_is_active_plugin("uservalidationbyemail")) {
 	$language = array (
 	  'admin:users:unvalidated' => 'Ongevalideerd',
-	  'email:validate:subject' => '%s bevestig aub je email adres voor %s!',
+	  'email:validate:subject' => '%s, bevestig alsjeblieft je e-mailadres voor %s!',
 	  'email:validate:body' => 'Beste %s,
 
-Voordat je gebruik kunt maken van %s, moet je je e-mail adres bevestigen.
+Voordat je gebruik kunt maken van %s moet je je e-mailadres bevestigen.
 
-Om je e-mail adres te bevestigen moet je op onderstaande link klikken:
+Om je e-mailadres te bevestigen klik je op onderstaande link:
 %s
 
 Als je niet op de link kunt klikken, kopieer en plak deze dan handmatig in de adresbalk van je browser.
 
 %s
 %s',
-	  'uservalidationbyemail:login:fail' => 'Je account is nog niet gevalideerd dus het aanmelden is mislukt. Er is nog een validatie mail verstuurd.',
+	  'uservalidationbyemail:login:fail' => 'Je account is nog niet gevalideerd dus het aanmelden is mislukt. Er is nog een validatiemail verstuurd.',
 	  'uservalidationbyemail:admin:no_unvalidated_users' => 'Geen ongevalideerde gebruikers',
 	  'uservalidationbyemail:admin:unvalidated' => 'Ongevalideerd',
-	  'uservalidationbyemail:admin:user_created' => 'Geregistreerd %s',
+	  'uservalidationbyemail:admin:user_created' => 'Geregistreerd: %s',
 	  'uservalidationbyemail:admin:resend_validation' => 'Validatie verzenden',
 	  'uservalidationbyemail:admin:validate' => 'Valideren',
 	  'uservalidationbyemail:admin:delete' => 'Verwijderen',
@@ -42,9 +42,9 @@ Als je niet op de link kunt klikken, kopieer en plak deze dan handmatig in de ad
 	  'uservalidationbyemail:messages:deleted_users' => 'Alle geselecteerde gebruikers verwijderd.',
 	  'uservalidationbyemail:messages:resent_validation' => 'Validatie opnieuw verzonden',
 	  'uservalidationbyemail:messages:resent_validations' => 'Validatie opnieuw verzonden aan alle geselecteerde gebruikers.',
-	  'email:confirm:fail' => 'Je e-mail adres kon niet worden geverifieerd...',
-	  'uservalidationbyemail:registerok' => 'Om je account te activeren, bevestig je email adres door te klikken op de link die we je gestuurd hebben.',
-	  'email:confirm:success' => 'Je hebt je e-mail adres bevestigd!',
+	  'email:confirm:fail' => 'Je e-mailadres kon niet worden geverifieerd...',
+	  'uservalidationbyemail:registerok' => 'Wil je jouw account activeren? Bevestig dan je e-mailadres door op de link die we je gestuurd hebben te klikken.',
+	  'email:confirm:success' => 'Je hebt je e-mailadres bevestigd!',
 	);
 	add_translation("nl", $language);
 }

@@ -23,10 +23,10 @@ if (elgg_is_active_plugin("likes")) {
 
 Bekijk je originele item hier:
 %5$s
-of bekijk %2$s\'s profiel hier:
+Of bekijk het profiel van %2$s hier:
 %6$s
 
-Bedankt,
+Met vriendelijke groet,
 %4$s',
 	);
 	add_translation("nl", $language);

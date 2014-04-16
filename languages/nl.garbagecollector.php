@@ -20,7 +20,7 @@ if (elgg_is_active_plugin("garbagecollector")) {
 		'garbagecollector:error' => "FOUT",
 		'garbagecollector:ok' => "OK",
 
-		'garbagecollector:gc:metastrings' => 'Opruimen van niet gelinkte metastrings: ',
+		'garbagecollector:gc:metastrings' => 'Opruimen van niet-gelinkte metastrings: ',
 	
 	);
 	

@@ -13,7 +13,7 @@ if (elgg_is_active_plugin("search")) {
 	  'search_types:tags' => 'Tags',
 	  'search_types:comments' => 'Reacties',
 	  'search:comment_on' => 'Reacties op "%s"',
-	  'search:unavailable_entity' => 'Niet beschikbare Entity',
+	  'search:unavailable_entity' => 'Niet beschikbaar',
 	);
 	
 	add_translation("nl", $language);
